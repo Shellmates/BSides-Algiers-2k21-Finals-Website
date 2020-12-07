@@ -477,7 +477,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(https://res.cloudinary.com/shellmates-club/image/upload/v1606911315/bsides_site/intro-bg-2_emnfda.png) top center;
+  background: url(https://res.cloudinary.com/shellmates-club/image/upload/v1606911315/bsides_site/intro-bg-2_emnfda.png)
+    top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -912,7 +913,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subscribe {
   padding: 60px;
-  background: url(https://res.cloudinary.com/shellmates-club/image/upload/v1606911096/bsides_site/Group_182x_kwozms.png) center center no-repeat;
+  background: url(https://res.cloudinary.com/shellmates-club/image/upload/v1606911096/bsides_site/Group_182x_kwozms.png)
+    center center no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
