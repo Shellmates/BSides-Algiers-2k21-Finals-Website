@@ -477,7 +477,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url('../img/10.jpg')
+  background: url('https://res.cloudinary.com/shellmates-club/image/upload/v1607620797/bsides_site/10_pfpf14.jpg')
     top center;
     /* https://res.cloudinary.com/shellmates-club/image/upload/v1606911315/bsides_site/intro-bg-2_emnfda.png */
   background-size: cover;
