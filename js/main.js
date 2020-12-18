@@ -3,7 +3,7 @@ jQuery(document).ready(function( $ ) {
   /*------------------
         CountDown
     --------------------*/
-    var countDownDate = new Date("dec 18, 2020 00:00:00").getTime();
+    var countDownDate = new Date("dec 19, 2020 20:00:00").getTime();
 
   var x = setInterval(function() {
 
