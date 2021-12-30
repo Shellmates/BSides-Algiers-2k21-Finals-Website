@@ -6,6 +6,17 @@
 */
 
 /*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+
+@font-face{
+  font-family:"futura-medium-condensed-bt";
+  src:url("https://candyfonts.com/wp-data/2019/03/23/44693/futura medium condensed bt.ttf") format("woff"),
+  url("https://candyfonts.com/wp-data/2019/03/23/44693/futura medium condensed bt.ttf") format("opentype"),
+  url("https://candyfonts.com/wp-data/2019/03/23/44693/futura medium condensed bt.ttf") format("truetype");
+}
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
@@ -39,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -175,7 +186,7 @@ h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -274,7 +285,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   outline: none;
@@ -520,7 +531,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family:"futura-medium-condensed-bt", "Open Sans", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -611,7 +622,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -755,7 +766,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h3 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -766,6 +777,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
+}
+
+#about .space-between-date-place {
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -779,8 +794,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speakers .speaker {
   position: relative;
   overflow: hidden;
+  /* height: 300px; */
+  /* max-height: 300px; */
   margin-bottom: 30px;
 }
+
+/* #speakers .speaker img {
+  margin: -75px 0 0 0px;
+} */
 
 #speakers .speaker .details {
   background: rgba(35, 31, 32, 0.76);
@@ -1073,7 +1094,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
@@ -1320,7 +1341,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1335,7 +1356,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
@@ -1511,9 +1532,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 8px 4px;
   }
 
-  #about {
+  /* #about {
     text-align: center;
-  }
+  } */
 }
 
 @media (max-width: 991px) {
