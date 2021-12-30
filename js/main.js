@@ -15,11 +15,18 @@ jQuery(document).ready(function( $ ) {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  document.getElementById("days-left").innerHTML = days;
-  document.getElementById("hours-left").innerHTML = hours;
-  document.getElementById("minutes-left").innerHTML = minutes;
-  document.getElementById("seconds-left").innerHTML = seconds;
+  if (distance < 0) {
+    document.getElementById("days-left").innerHTML = 0;
+    document.getElementById("hours-left").innerHTML = 0;
+    document.getElementById("minutes-left").innerHTML = 0;
+    document.getElementById("seconds-left").innerHTML = 0;
+  } else {
+    document.getElementById("days-left").innerHTML = days;
+    document.getElementById("hours-left").innerHTML = hours;
+    document.getElementById("minutes-left").innerHTML = minutes;
+    document.getElementById("seconds-left").innerHTML = seconds;
+  }
+
 }, 1000);
 
   // Back to top button
