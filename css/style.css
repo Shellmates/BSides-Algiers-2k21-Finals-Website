@@ -1575,6 +1575,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .sub-heading {
     width: 75%;
   }
+
+  .no-display-lg{
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1636,6 +1640,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 60px;
   }
+
+  .no-display-sm{
+    display: none;
+  }
+
 }
 
 @media (max-width: 768px) {
