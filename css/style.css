@@ -1202,8 +1202,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
 }
 
-#registration .card .card-price {
-  font-size: 48px;
+#registration .card .card-type {
+  font-size: 40px;
   margin: 0;
 }
 
