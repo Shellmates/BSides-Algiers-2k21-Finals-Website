@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -523,7 +523,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro h1 {
   color: #fff;
   font-family:"futura-medium-condensed-bt", "Open Sans", sans-serif;
-  font-size: 56px;
+  font-size: 70px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -731,12 +731,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("https://res.cloudinary.com/shellmates-club/image/upload/v1606915001/bsides_site/about-bg_vxfx7g.jpg");
+  background-color: #231f20;
   background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 60px 0 40px 0;
+  padding: 60px 0 60px 0;
 }
 
 #about:before {
@@ -1626,7 +1626,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro h1 {
-    font-size: 34px;
+    font-size: 55px;
   }
 
   #intro p {
@@ -1650,6 +1650,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   #faq #faq-list i {
     top: 13px;
   }
+
+  #intro h1 {
+    font-size: 45px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1661,6 +1665,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 574px) {
   #venue .venue-info h3 {
     font-size: 24px;
+  }
+
+  #intro h1 {
+    font-size: 34px;
   }
 }
 
