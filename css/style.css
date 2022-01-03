@@ -1052,20 +1052,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation-iteration-count: infinite;
 }
 
-/* .owl-item .venobox img {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.owl-item .venobox:hover img {
-	-webkit-filter: blur(0);
-	filter: blur(0);
-} */
-
 .owl-item .venobox:hover img {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #1d8e62;
+  box-shadow: 0 0 10px #1d8e62;
 }
 
 @keyframes left-animation {
