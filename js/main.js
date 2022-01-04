@@ -161,8 +161,5 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-  var element = document.getElementsByClassName("owl-item");
-  element.classList.remove("cloned");
-  element.classList.remove("active");
 
 });
