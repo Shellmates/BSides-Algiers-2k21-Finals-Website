@@ -1005,7 +1005,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/13.jpg") top center no-repeat;
+  background: url("https://res.cloudinary.com/shellmates-club/image/upload/v1641266998/bsides_site/venue-gallery/13_btgfb1.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
